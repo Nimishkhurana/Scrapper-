@@ -92,6 +92,7 @@ def compPlayHand(hand, wordList, n):
                 # Update hand and show the updated hand to the user
                 hand = updateHand(hand, word)
                 print()
+                time.sleep(3)
     print('Total score: ' + str(totalScore) + ' points.')
 
 
